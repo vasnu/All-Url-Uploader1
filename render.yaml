@@ -9,14 +9,12 @@ services:
     branch: Master
     envVars:
       - key: BOT_TOKEN 
-        sync:
+        sync: 6781092916:AAGTdQXwOu0VgFNjB8N7EPSGvBh9zPdFvpc
       - key: API_ID 
-        sync: 
+        sync: 28773160
       - key: API_HASH
-        sync: 
-      - key: WEBHOOK
-        sync: 
+        sync: 37bdcd1fce6d5edc6f5f8b28b44c9e8c
       - key: LOG_CHANNEL
-        sync: false    
+        sync: -1002024552188    
     
     autoDeploy: false
