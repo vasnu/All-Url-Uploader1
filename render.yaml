@@ -1,0 +1,22 @@
+services:
+  - type: web
+    plan: free
+    name: LazyPrincess - v-10
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 bot.py
+    repo: https://github.com/LazyDeveloperr/LazyPrincess.git      
+    branch: Master
+    envVars:
+      - key: BOT_TOKEN 
+        sync:
+      - key: API_ID 
+        sync: 
+      - key: API_HASH
+        sync: 
+      - key: WEBHOOK
+        sync: 
+      - key: LOG_CHANNEL
+        sync: false    
+    
+    autoDeploy: false
