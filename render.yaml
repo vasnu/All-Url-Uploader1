@@ -16,5 +16,11 @@ services:
         sync: 37bdcd1fce6d5edc6f5f8b28b44c9e8c
       - key: LOG_CHANNEL
         sync: -1002024552188    
-    
+      - key: AUTH_USERS 
+        sync: 6329158981
+      - key: BOT_USERNAME
+        sync: Eyeurhrbrbot
+      - key: OWNER_ID
+        sync: 6329158981
+        
     autoDeploy: false
