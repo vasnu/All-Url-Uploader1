@@ -5,8 +5,8 @@ services:
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 bot.py
-    repo: https://github.com/LazyDeveloperr/LazyPrincess.git      
-    branch: Master
+    repo: https://github.com/kalanakt/All-Url-Uploader.git      
+    branch: 
     envVars:
       - key: BOT_TOKEN 
         sync: 6781092916:AAGTdQXwOu0VgFNjB8N7EPSGvBh9zPdFvpc
