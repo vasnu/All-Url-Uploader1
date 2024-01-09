@@ -1,12 +1,12 @@
 services:
   - type: web
     plan: free
-    name: LazyPrincess - v-10
+    name: All-Url-Uploader
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python3 bot.py
     repo: https://github.com/kalanakt/All-Url-Uploader.git      
-    branch: 
+    branch: main
     envVars:
       - key: BOT_TOKEN 
         sync: 6781092916:AAGTdQXwOu0VgFNjB8N7EPSGvBh9zPdFvpc
